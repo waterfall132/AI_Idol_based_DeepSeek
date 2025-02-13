@@ -59,7 +59,7 @@
 ---
 
 ### **五、技术细节**
-- **技术栈**：Python + Scrapy（爬虫）、ChromaDB（向量库）、jieba分词、DeepSeek-7B（生成模型）  
+- **技术栈**：Python + Scrapy（爬虫）、ChromaDB（向量库）、jieba分词、DeepSeek-v3（生成模型）  
 - **模型调优**：  
   - **温度参数**：低温度（~0.3）保持语言严谨，高温度（~0.7）激发创意回复  
   - **风格迁移**：基于Prefix-Tuning的轻量化微调，100条样本即可克隆语气  
